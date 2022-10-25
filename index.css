@@ -1,0 +1,132 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+
+
+@supports (color: #f7bf30) {
+    .bb{
+        color: #f7bf30;
+    }
+    }
+*:not(i) {
+    font-family: "Open Sans", sans-serif !important;;
+}
+.bb{
+    color: #f7bf30;
+}
+
+.text-cursive {
+    font-family: "Sacramento", cursive !important;
+}
+html {
+    scroll-padding-top: 58px;
+}
+body {
+    padding-top: 58px;
+}
+section {
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
+
+.navbar-brand {
+    border: solid var(--accent-4) 3px;
+    padding-right: 0.65em;
+    padding-left: 0.65em;
+}
+
+#Home {
+    background-image: url("c.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    height: 97vh;
+    min-height: 400px;
+}
+#Home .btn {
+    border: solid 2px transparent;
+}
+#Home .btn:hover {
+    background-color: transparent !important;
+    border: solid 2px var(--accent-4);
+    color: var(--accent-4) !important;
+}
+
+.skills-circle {
+    width: 15px; 
+    height: 15px; 
+    border-radius: 100%;
+    display: inline-block;
+}
+
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --light-grey: #f8f8f8;
+    --light-grey-2: #ccc;
+    --dark-grey: #666;
+    --accent-1: #2E92A9;
+    --accent-2: #9539ebdd;
+    --accent-3: #EF7365;
+    --accent-4: #f7bf30;
+    --accent-5: #ffe29a;
+}
+
+.text-white {
+    color: var(--white) !important; 
+}
+.text-black {
+    color: var(--black) !important; 
+}
+.text-light-grey {
+    color: var(--light-grey) !important; 
+}
+.text-light-grey-2 {
+    color: var(--light-grey-2) !important; 
+}
+.text-dark-grey {
+    color: var(--dark-grey) !important; 
+}
+.text-accent-1 {
+    color: var(--accent-1) !important; 
+}
+.text-accent-2 {
+    color: var(--accent-2) !important; 
+}
+.text-accent-3 {
+    color: var(--accent-3) !important; 
+}
+.text-accent-4 {
+    color: var(--accent-4) !important; 
+}
+
+
+.bg-white {
+    background-color: var(--white) !important; 
+}
+.bg-black {
+    background-color: var(--black) !important; 
+}
+.bg-light-grey {
+    background-color: var(--light-grey) !important; 
+}
+.bg-light-grey-2 {
+    background-color: var(--light-grey-2) !important; 
+}
+.bg-dark-grey {
+    background-color: var(--dark-grey) !important; 
+}
+.bg-accent-1 {
+    background-color: var(--accent-1) !important; 
+}
+.bg-accent-2 {
+    background-color: var(--accent-2) !important; 
+}
+.bg-accent-3 {
+    background-color: var(--accent-3) !important; 
+}
+.bg-accent-4 {
+    background-color: var(--accent-4) !important; 
+}
